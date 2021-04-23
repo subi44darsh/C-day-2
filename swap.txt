@@ -1,0 +1,28 @@
+using System.IO;
+using System;
+
+class Class1
+{
+
+    void swap(int a, int b)
+    {
+       int temp;
+       temp=a;
+       a=b;
+       b=temp;
+      Console.WriteLine("The value of a after swap"+a);
+      Console.WriteLine("The value of b after swap"+b);
+    }
+
+    static void Main()
+    {
+       int i, j;
+            Console.WriteLine("Enter the number");
+            i= Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine("Enter the number"); 
+           j= Convert.ToInt32(Console.ReadLine());
+         Class1 class1=new Class1();
+         class1.swap(i,j);
+         
+    }
+}
